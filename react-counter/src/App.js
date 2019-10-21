@@ -46,8 +46,8 @@ class App extends React.Component {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h1>
-          <button onClick = {this.addNumber}> + </button> 
-          <button onClick = {this.minusNumber}> - </button> 
+          <button onClick = {this.addNumber}> <h2>+</h2> </button> 
+          <button onClick = {this.minusNumber}> <h2>-</h2> </button> 
         </h1>
         <h1>{this.state.value}</h1>
         <a
